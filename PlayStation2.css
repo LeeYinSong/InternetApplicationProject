@@ -1,0 +1,173 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	font-size: 23px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.headerLogo, .footer {
+	background-color: lightskyblue;
+}
+
+.headerLogo img {
+	width: 10%;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+.home a {
+	display: block;
+	position: absolute;
+	top: 32px;
+	left: 13%;
+}
+
+.content {
+	padding: 1%;
+	background-color: black;
+}
+
+.intro, .description, .hardware {
+	margin-bottom: 5%;
+	padding: 0 2% 2% 2%;
+	background-color: white;
+}
+
+.intro img {
+	float: left;
+	width: 10%;
+}
+
+.footerLogo img {
+	width:40%;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.footer, .footerLogo {
+	display: flex;
+}
+
+.footerLogo p {
+	margin: 15%;
+}
+
+#backTop {
+	display: none;
+	position: fixed;
+	width: 3%;
+	height: 32px;
+	background-color: whitesmoke;
+	bottom: 3%;
+	right: 2%;
+	font-size: 30px;
+	text-align: center;
+}
+
+@media (min-width: 1441px) {
+	html, body {
+		font-size: 25px;
+	}
+	.home a {
+		top: 43px;
+	}
+	.intro img {
+		width: 8%;
+	}
+	#backTop {
+		height: 45px;
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 1921px) {
+	html, body {
+		font-size: 35px;
+	}
+	.home a {
+		top: 54px;
+	}
+	.footerLogo img {
+		width: 50%;
+	}
+	.footerLogo p {
+		margin: 20%;
+	}
+	#backTop {
+		height: 55px;
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 1025px) {	
+	html, body {
+		font-size: 18px;
+	}
+	.home a {
+		top: 21.5px;
+	}
+	.footerLogo img {
+		width: 30%;
+	}
+	.footerLogo p {
+		margin: 10%;
+	}
+	#backTop {
+		height: 27px;
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 769px) {
+	html, body {
+		font-size: 13px;
+	}
+	.home a {
+		top: 17px;
+	}
+	.footerLogo img {
+		width: 20%;
+	}
+	#backTop {
+		height: 22px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 426px) {
+	html, body {
+		font-size: 10px;
+	}
+	.home a {
+		top: 9px;
+	}
+	.footerLogo img {
+		width: 15%;
+	}
+	.footerLogo p {
+		margin: 5%;
+	}
+	#backTop {
+		width: 4%;
+		height: 17px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 321px) {
+	.home a {
+		top: 7px;
+	}
+	.footerLogo img {
+		width: 10%;
+	}
+	#backTop {
+		width: 4%;
+		height: 12px;
+		font-size: 10px;
+	}
+}
